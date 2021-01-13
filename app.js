@@ -21,7 +21,7 @@ console.log(error);
 }
 function getWeather(latitude, longitude)
 {
-let api=`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=9ce2dac72a40f15e71c6bcfae7e63d23`
+let api=`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=9ce2dac72a40f15e71c6bcfae7e63d23`
 fetch(api) 
     .then(
     function(response){ 
